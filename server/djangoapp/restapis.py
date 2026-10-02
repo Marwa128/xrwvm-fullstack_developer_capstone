@@ -9,17 +9,21 @@ sentiment_analyzer_url = os.getenv('sentiment_analyzer_url', default="http://loc
 
 def get_request(endpoint, **kwargs):
     params = ""
-    if kwargs:
-        params = "?" + "&".join(f"{key}={value}" for key, value in kwargs.items())
-    
-    request_url = backend_url + endpoint + params
-    print(f"GET from {request_url}")
+    if(kwargs):
+        for key,value in kwargs.items():
+            params=params+key+"="+value+"&"
+
+    request_url = backend_url+endpoint+"?"+params
+
+    print("GET from {} ".format(request_url))
     try:
+        # Call get method of requests library with URL and parameters
         response = requests.get(request_url)
         return response.json()
-    except Exception as err:
-        print(f"Unexpected {err=}, {type(err)=}")
+    except:
+        # If any error occurs
         print("Network exception occurred")
+
 
 def analyze_review_sentiments(text):
     request_url = sentiment_analyzer_url + "analyze/" + text
@@ -38,3 +42,5 @@ def post_review(data_dict):
     except Exception as err:
         print(f"Unexpected {err=}, {type(err)=}")
         print("Network exception occurred")
+
+       
