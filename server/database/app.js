@@ -18,8 +18,7 @@ const Dealership = require('./dealership');
 const Review = require('./review');
 
 // الاتصال بقاعدة البيانات وإدخال البيانات الأولية إن لم تكن موجودة
-mongoose.connect('mongodb://db_container:27017/dealershipsDB', { useNewUrlParser: true });
-
+mongoose.connect('mongodb://localhost:27017/dealershipsDB', { useNewUrlParser: true });
 async function populateDB() {
   try {
     await Dealership.deleteMany({});
