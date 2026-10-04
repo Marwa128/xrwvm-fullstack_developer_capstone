@@ -17,7 +17,7 @@ def initiate():
         car_make_instances.append(
             CarMake.objects.create(
                 name=data['name'], description=data['description']))
-        )
+        
 
     car_model_data = [
         {"name": "Pathfinder", "type": "SUV", "year": 2023,
@@ -59,4 +59,4 @@ def initiate():
             car_make=data['car_make'], 
             car_type=data['type'], 
             year=data['year'],
-            dealer_id=1])
+            dealer_id=1)
