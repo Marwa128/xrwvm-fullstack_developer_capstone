@@ -29,9 +29,15 @@ SECRET_KEY = \
 DEBUG = True
 
 # Allowed hosts and trusted origins for proxy environments
-ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://*.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
-
+ALLOWED_HOSTS = [
+    'localhost',
+    'https://kh.m.off82-8000.theianext-0-labs-prod-misc-tools-us-east-0.'
+    'proxy.cognitiveclass.ai'
+]
+CSRF_TRUSTED_ORIGINS = [
+    'https://kh.m.off982-8000.theianext-0-labs-prod-misc-tools-us-east-0.'
+    'proxy.cognitiveclass.ai'
+]
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
