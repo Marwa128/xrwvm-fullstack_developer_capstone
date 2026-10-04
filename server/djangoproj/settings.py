@@ -30,8 +30,9 @@ DEBUG = True
 
 # Allowed hosts and trusted origins for proxy environments
 ALLOWED_HOSTS = [
-    'localhost',
-    'https://khmoff982-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+   'localhost',
+    'https://khmoff982-3030.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai',
+    'https://khmoff982-3030.theiadockernext--labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
 ]
 CSRF_TRUSTED_ORIGINS = [
     'https://kh.m.off982-8000.theianext-0-labs-prod-misc-tools-us-east-0.'
