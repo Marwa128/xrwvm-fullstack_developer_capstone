@@ -40,5 +40,7 @@ class CarModel(models.Model):
         ]
     )
 
+    created_at = models.DateTimeField(default=now)
+
     def __str__(self):
         return f"{self.car_make.name} {self.name}"
