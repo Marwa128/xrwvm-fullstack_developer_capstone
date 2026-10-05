@@ -19,7 +19,7 @@ class CarModel(models.Model):
     WAGON = 'Wagon'
     HATCHBACK = 'Hatchback'
     COUPE = 'Coupe'
-    
+
     CAR_TYPES = [
         (SEDAN, 'Sedan'),
         (SUV, 'SUV'),

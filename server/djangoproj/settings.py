@@ -30,7 +30,7 @@ DEBUG = True
 
 # Allowed hosts and trusted origins for proxy environments
 ALLOWED_HOSTS = [
-   'localhost',
+    'localhost',
     'https://khmoff982-3030.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai',
     'https://khmoff982-3030.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
 ]
