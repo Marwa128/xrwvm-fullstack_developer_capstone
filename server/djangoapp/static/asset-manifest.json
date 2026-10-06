@@ -10,8 +10,5 @@
     "main.d9716fdc.css.map": "/static/css/main.d9716fdc.css.map",
     "main.5a38c589.js.map": "/static/js/main.5a38c589.js.map"
   },
-  "entrypoints": [
-    "static/css/main.d9716fdc.css",
-    "static/js/main.5a38c589.js"
-  ]
+  "entrypoints": ["static/css/main.d9716fdc.css", "static/js/main.5a38c589.js"]
 }

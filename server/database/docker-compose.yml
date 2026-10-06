@@ -1,4 +1,4 @@
-version: '3.9'
+version: "3.9"
 
 services:
   # Mongodb service
@@ -20,7 +20,7 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
-    depends_on: 
+    depends_on:
       - mongo_db
 
 volumes:
