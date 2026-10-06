@@ -35,7 +35,7 @@ class CarModel(models.Model):
     year = models.IntegerField(
         default=2023,
         validators=[MinValueValidator(2015),
-        MaxValueValidator(2023)]
+                    MaxValueValidator(2023)]
     )
 
     created_at = models.DateTimeField(default=now)
