@@ -13,9 +13,13 @@ urlpatterns = [
     # path for logout
     path("logout", views.logout_request, name="logout"),
     # path for get cars
-    path("get_cars", views.get_cars, name="getcars"),
+    path("get_cars",
+         views.get_cars,
+         name="getcars"),
     # path for get dealerships
-    path(route="get_dealers/", view=views.get_dealerships, name="get_dealers"),
+    path(route="get_dealers/",
+         view=views.get_dealerships,
+         name="get_dealers"),
     path(
         route="get_dealers/<str:state>",
         view=views.get_dealerships,
