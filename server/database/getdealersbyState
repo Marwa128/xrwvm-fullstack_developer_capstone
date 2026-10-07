@@ -1,2 +1,13 @@
+curl -X GET "https://khmoff982-3030.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/fetchDealers/Kansas"
+[{"_id":"6ac635e89cada9453798e5d0","id":8,"city":"Topeka","state":"Kansas","address":"288 Larry Place","zip":"66642","lat":"39.0429","long":"-95.7697","short_name":"Bytecard","full_name":"Bytecard Car Dealership","__v":0}]
+
+
+
+...............
+
+
 curl -X GET "https://khmoff982-3030.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/fetchDealers/Texas"
 [{"_id":"6ac61da19021a684fb4924d2","id":1,"city":"El Paso","state":"Texas","address":"3 Nova Court","zip":"88563","lat":"31.6948","long":"-106.3","short_name":"Holdlamis","full_name":"Holdlamis Car Dealership","__v":0},{"_id":"6ac61da19021a684fb4924d5","id":4,"city":"Dallas","state":"Texas","address":"85800 Hazelcrest Circle","zip":"75241","lat":"32.6722","long":"-96.7774","short_name":"Solarbreeze","full_name":"Solarbreeze Car Dealership","__v":0},{"_id":"6ac61da19021a684fb4924da","id":9,"city":"Dallas","state":"Texas","address":"253 Hanson Junction","zip":"75216","lat":"32.7086","long":"-96.7955","short_name":"Job","full_name":"Job Car Dealership","__v":0},{"_id":"6ac61da19021a684fb4924e0","id":15,"city":"San Antonio","state":"Texas","address":"5057 Pankratz Hill","zip":"78225","lat":"29.3875","long":"-98.5245","short_name":"Tempsoft","full_name":"Tempsoft Car Dealership","__v":0},{"_id":"6ac61da19021a684fb4924e1","id":16,"city":"El Paso","state":"Texas","address":"0 Rieder Trail","zip":"79994","lat":"31.6948","long":"-106.3","short_name":"Treeflex","full_name":"Treeflex Car Dealership","__v":0},{"_id":"6ac61da19021a684fb4924ec","id":27,"city":"San Antonio","state":"Texas","address":"95321 Superior Hill","zip":"78245","lat":"29.4189","long":"-98.6895","short_name":"Namfix","full_name":"Namfix Car Dealership","__v":0},{"_id":"6ac61da19021a684fb4924ef","id":30,"city":"Houston","state":"Texas","address":"5423 Spaight Road","zip":"77218","lat":"29.834","long":"-95.4342","short_name":"Opela","full_name":"Opela Car Dealership","__v":0},{"_id":"6ac61da19021a684fb4924f7","id":38,"city":"Dallas","state":"Texas","address":"821 New Castle Trail","zip":"75226","lat":"32.7887","long":"-96.7676","short_name":"Zamit","full_name":"Zamit Car Dealership","__v":0}]
+
+
+................
