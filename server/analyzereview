@@ -1,1 +1,2 @@
+curl -X GET "https://sentianalyzer.2fne4q8an2e2.us-south.codeengine.appdomain.cloud/analyze/Fantastic%20services"
 {"sentiment": "positive"}
